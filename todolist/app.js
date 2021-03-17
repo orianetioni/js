@@ -20,7 +20,7 @@ function addItem(e){
     e.preventDefault();
     if(inputText.value == ""){
         txtSuccess.innerHTML ="Pas possible d'ajouter une tâche vide !";
-        addBtn.disabled = true;
+       
 
     }else{
         let item =document.createElement('li');
